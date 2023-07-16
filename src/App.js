@@ -107,7 +107,7 @@ function App () {
             onClick={handleDrumPadClick}
           >
             {data.text}
-            <audio className='clip' id={data.text} src={data.audioSrc}></audio>
+            <audio className='clip' id={data.text} src={data.audioSrc} />
           </div>
         ))}
       </div>
